@@ -15,7 +15,6 @@
   * [5. inception 모델 사용](#5-inception-모델-사용)
   * [6. 개고양이 이미지 학습](#6-개고양이-이미지-학습)
   * [7. 새로운 이미지 예측](#7-새로운-이미지-예측)
-  * [8.텐서보드 실행](#8텐서보드-실행)
 
 <!-- tocstop -->
 
@@ -37,9 +36,10 @@ docker run -it -v /c/Users/User/docker/slim:/root/ -p 8888:8888 -p 6006:6006 --n
 
 소스파일을 가져오자.
 ```
-git clone https://github.com/HyeonAKim/dogNcat_image_classification/slim
+cd ~ 
+git clone https://github.com/HyeonAKim/dogNcat_image_classification
 ```
-![이미지 125](http://i.imgur.com/lkcDsBj.png)
+
 
 ### 3.imageMagicK 설치
 
